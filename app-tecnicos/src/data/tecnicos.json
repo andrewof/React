@@ -1,0 +1,63 @@
+[
+    {
+      "nombre": "Juan Pérez",
+      "profesion": "Electricista",
+      "servicios_que_ofrece": ["Instalación eléctrica residencial", "Reparación de cortocircuitos", "Mantenimiento de sistemas eléctricos"],
+      "img": ""
+    },
+    {
+      "nombre": "María García",
+      "profesion": "Fontanero",
+      "servicios_que_ofrece": ["Reparación de fugas de agua", "Instalación de tuberías", "Desatascos"],
+      "img": "ruta/imagen2.jpg"
+    },
+    {
+      "nombre": "Luis Martínez",
+      "profesion": "Técnico en aire acondicionado",
+      "servicios_que_ofrece": ["Instalación de sistemas de aire acondicionado", "Reparación de equipos de climatización", "Mantenimiento preventivo"],
+      "img": "ruta/imagen3.jpg"
+    },
+    {
+      "nombre": "Ana Rodríguez",
+      "profesion": "Informático",
+      "servicios_que_ofrece": ["Reparación de ordenadores", "Instalación de redes", "Recuperación de datos"],
+      "img": "ruta/imagen4.jpg"
+    },
+    {
+      "nombre": "Carlos Sánchez",
+      "profesion": "Mecánico automotriz",
+      "servicios_que_ofrece": ["Mantenimiento de vehículos", "Reparación de motores", "Diagnóstico de fallas"],
+      "img": "ruta/imagen5.jpg"
+    },
+    {
+      "nombre": "Laura Díaz",
+      "profesion": "Técnico en telecomunicaciones",
+      "servicios_que_ofrece": ["Instalación de antenas", "Configuración de redes", "Reparación de equipos de comunicación"],
+      "img": "ruta/imagen6.jpg"
+    },
+    {
+      "nombre": "Javier López",
+      "profesion": "Cerrajero",
+      "servicios_que_ofrece": ["Apertura de puertas", "Cambio de cerraduras", "Reparación de persianas"],
+      "img": "ruta/imagen7.jpg"
+    },
+    {
+      "nombre": "Elena Ruiz",
+      "profesion": "Técnico en sistemas de seguridad",
+      "servicios_que_ofrece": ["Instalación de alarmas", "Mantenimiento de sistemas de videovigilancia", "Asesoramiento en seguridad"],
+      "img": "ruta/imagen8.jpg"
+    },
+    {
+      "nombre": "Pedro González",
+      "profesion": "Pintor",
+      "servicios_que_ofrece": ["Pintura interior", "Pintura exterior", "Decoración de interiores"],
+      "img": "ruta/imagen9.jpg"
+    },
+    {
+      "nombre": "Sara Fernández",
+      "profesion": "Técnico en sistemas de energía solar",
+      "servicios_que_ofrece": ["Instalación de paneles solares", "Mantenimiento de sistemas fotovoltaicos", "Asesoramiento en eficiencia energética"],
+      "img": "ruta/imagen10.jpg"
+    }
+  ]
+  

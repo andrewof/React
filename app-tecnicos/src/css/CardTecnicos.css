@@ -1,0 +1,58 @@
+.card-tecnico-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 30px 0;
+  min-height: 600px;
+}
+
+.card-tecnico {
+  position: relative;
+  width: 220px;
+  height: 350px;
+  margin: 30px 15px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.card-tecnico-img {
+  border: 2px solid yellow;
+}
+
+.card-tecnico-titulo {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-tecnico-parrafo {
+  margin-top: 10px;
+  color: #f0f0f0;
+}
+
+.link-container {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.button-blue {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #1475e1;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.button-blue:hover {
+  background-color: #105eb4;
+}
+
