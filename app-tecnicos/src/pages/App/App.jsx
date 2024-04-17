@@ -1,8 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../Home'
+// import Navbar from '../../components/Navbar'
 import Navbar from '../../components/Navbar'
 import Tecnicos from '../Tecnicos'
 import NotFound from '../NotFound'
+import IniciarSesion from '../IniciarSesion'
+import Registro from '../Registro'
 import FooterCo from '../../components/Footer'
 import './App.css'
 
@@ -43,8 +46,21 @@ const App = () => {
             </>
           }
         />
-        <Route path="/tecnicos" element={<Tecnicos />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path='/iniciar-sesion' 
+          element={
+            <>
+              <IniciarSesion />
+            </>
+          }
+        />
+        <Route path='/registrarse' 
+          element={
+            <>
+              <Registro />
+            </>
+          }
+        />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
     </>

@@ -1,105 +1,73 @@
-nav {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 3vw;
+.navbar-custom {
   position: fixed;
   top: 0;
-  background-color: #1a2c38; /*#1a2c38*/
+  width: 100%;
+  font-family: "Inter";
+  font-weight: 600;
+  z-index: 1000;
+  background-color: #1a2c38;
   box-shadow: 0 4px 6px -1px #0003, 0 2px 4px -1px rgba(0,0,0,.122);
-  z-index: 10;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul:first-child {
-  margin-right: auto;
-}
-
-nav ul:last-child {
-  margin-left: auto;
-}
-
-nav li {
-  margin-right: 20px;
+.logo-container {
   display: flex;
   align-items: center;
 }
 
-nav .navbar-link {
-  text-decoration: none;
+.logo-text {
+  margin-left: 10px;
   color: #ffffff;
+}
+
+.menu-opcion {
+  color: #ffffff;
+  font-size: 18px;
   transition: all .3s;
-  display: flex;
-  align-items: center;
-}
-
-nav .navbar-link:hover {
-  color: #f0f0f0;
-}
-
-.navbar-link img {
-  max-height: 50px;
-  max-width: 100px;
-}
-
-.nav-button-transparent,
-.nav-button-blue {
   text-decoration: none;
+}
+
+.menu-opcion:hover {
+  color: #1475e1;
+}
+
+.active-link {
+  color: #1475e1;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link-space {
+  margin-right: 20px;
+}
+
+.btn-nav-blanco,
+.btn-nav-azul {
   display: inline-block;
   margin-right: 10px;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 500;
   border-radius: 5px;
+  border: none;
   cursor: pointer;
   transition: all .3s;
 }
 
-.nav-button-transparent {
+.btn-nav-blanco {
   color: #ffffff;
+  background-color: transparent;
 }
 
-.nav-button-transparent:hover {
+.btn-nav-blanco:hover {
   background-color: #f0f0f0;
   color: #1475e1;
 }
 
-.nav-button-blue {
+.btn-nav-azul {
   background-color: #1475e1;
   color: #ffffff;
 }
 
-.nav-button-blue:hover {
+.btn-nav-azul:hover {
   background-color: #105eb4;
-}
-
-.name-app {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-@media only screen and (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav ul:first-child,
-  nav ul:last-child {
-    margin: 0;
-  }
-
-  .nav-button-transparent,
-  .nav-button-blue {
-    margin-right: 0;
-  }
 }

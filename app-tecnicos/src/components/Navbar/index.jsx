@@ -1,29 +1,55 @@
-import { NavLink, Link } from 'react-router-dom'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 import '../../css/Navbar.css'
 
-const Navbar = () => {
+function Prueba() {
+
   return (
-    <nav>
-      <ul>
-        <li>
-          <NavLink to='/' className='navbar-link'>
-             <img src={logo} alt="logo" className='img-logo'/>
-             <span className='name-app'>TecnoServ</span>
-          </NavLink>
-        </li>
-      </ul>
-      <ul>
-        <li><NavLink to='/' className='navbar-link'>Inicio</NavLink></li>
-        <li><NavLink to='/tecnicos' className='navbar-link'>Técnicos</NavLink></li>
-        <li><NavLink to='/tecnicos' className='navbar-link'>Próximamente</NavLink></li>
-      </ul>
-      <ul>
-        <Link to='/iniciar-sesion' className='nav-button-transparent'>Iniciar</Link>
-        <Link to='/registrarse' className='nav-button nav-button-blue'>Registrarse</Link>
-      </ul>
-    </nav>
-  )
+    <Navbar collapseOnSelect expand="lg" className=" navbar-custom">
+      <Container>
+      <Navbar.Brand as={Link} to='/#'>
+          <div className='logo-container'>
+            <img
+                alt=""
+                src={logo}
+                width="50"
+                height="50"
+                className="d-inline-block align-top"
+              />{' '}
+              <span className='logo-text'>TecnoServ</span>
+          </div>
+        </Navbar.Brand>
+        <Navbar.Brand as={Link} to='/#'></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto menu">
+            <NavLink to='/' className={({isActive}) => 
+              isActive ? 'active-link' : 'menu-opcion'
+            }>
+              Inicio
+            </NavLink>
+            <span className='nav-link-space'></span>
+            <NavLink to='/tecnicos' className={({isActive}) => 
+              isActive ? 'active-link' : 'menu-opcion'
+            }>
+              Técnicos
+            </NavLink>
+          </Nav>
+          <Nav>
+            <Nav.Link as={Link} to='/iniciar-sesion'>
+              <button className='btn-nav-blanco'>Iniciar sesión</button>
+            </Nav.Link>
+            <Nav.Link as={Link} to='/registrarse'>
+              <button className='btn-nav-azul'>Registrarse</button>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar
+export default Prueba;

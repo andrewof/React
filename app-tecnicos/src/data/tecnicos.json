@@ -3,7 +3,7 @@
       "nombre": "Juan Pérez",
       "profesion": "Electricista",
       "servicios_que_ofrece": ["Instalación eléctrica residencial", "Reparación de cortocircuitos", "Mantenimiento de sistemas eléctricos"],
-      "img": ""
+      "img": "https://github.com/andrewof/React/blob/main/app-tecnicos/src/data/data-img/juan-perez.png?raw=true"
     },
     {
       "nombre": "María García",

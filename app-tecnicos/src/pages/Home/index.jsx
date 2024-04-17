@@ -7,7 +7,6 @@ import tecnico_2 from '../../assets/tecnico-2.png'
 function Home(){
   return ( 
     <Layout>
-      Home
       <Hero 
         parrafo='Encuentra técnicos de una manera más rápida desde internet.'
         textBtn='Buscar un Técnico'

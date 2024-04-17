@@ -1,0 +1,56 @@
+.form-container-registro {
+  width: 700px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2c38;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 70px;
+}
+
+form {
+  width: 350px;
+  margin: 40px 0;
+}
+
+.title-form-registro {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hr-espacio-registro {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.label {
+  margin-bottom: 9px;
+}
+
+.input-container-registro {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-container-registro input {
+  border: none;
+  border-bottom: 2px solid #1475e1;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.input-container-registro input:hover {
+  background-color: #0f212e;
+}
+
+.input-container-registro input:focus {
+  outline: none;
+  background-color: #0f212e;
+}

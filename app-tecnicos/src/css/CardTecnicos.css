@@ -1,58 +1,67 @@
-.card-tecnico-container {
+.card-tecnicos-container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   margin: 30px 0;
+  /* background-color: aliceblue; */
   min-height: 600px;
 }
 
-.card-tecnico {
+.card-tecnicos {
   position: relative;
-  width: 220px;
-  height: 350px;
-  margin: 30px 15px;
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
+  width: 300px;
+  height: 450px;
+  margin: 20px auto;
+  padding: 0 20px;
+  /* border: 2px solid orange; */
+  border-radius: 15px;
+  background-color: #1a2c38;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card-tecnico-img {
-  border: 2px solid yellow;
+.img-tecnicos {
+  width: 100%;
+  height: auto;
 }
 
-.card-tecnico-titulo {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
+.title-tecnicos-5 {
+  margin: 10px 0 3px 0;
   text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
-.card-tecnico-parrafo {
-  margin-top: 10px;
+.title-tecnicos-6 {
+  text-align: center;
+  font-size: 13px;
   color: #f0f0f0;
+  margin-bottom: 20px;
 }
 
-.link-container {
+.servicios-tecnicos {
+  line-height: 25px;
+}
+
+.btn-tecnicos-link {
   position: absolute;
-  bottom: 16px;
-  right: 16px;
+  right: 18px;
+  bottom: 18px;
 }
 
-.button-blue {
-  text-decoration: none;
+.btn-card-tecnicos-azul {
   display: inline-block;
   margin-right: 10px;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 500;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
   background-color: #1475e1;
   color: #ffffff;
-  cursor: pointer;
   transition: all .3s;
 }
 
-.button-blue:hover {
+.btn-card-tecnicos-azul:hover {
   background-color: #105eb4;
 }
-
